@@ -1,0 +1,26 @@
+[
+  {
+    "id": "auto-deductible",
+    "question": "Quelle est la franchise auto tous accidents ?",
+    "expected_doc_ids": ["auto_policy"],
+    "should_refuse": false
+  },
+  {
+    "id": "home-water-damage",
+    "question": "Quelle est la franchise pour un degat des eaux ?",
+    "expected_doc_ids": ["home_policy"],
+    "should_refuse": false
+  },
+  {
+    "id": "auto-home-comparison",
+    "question": "Quelle est la difference de franchise entre l'auto et l'habitation ?",
+    "expected_doc_ids": ["auto_policy", "home_policy"],
+    "should_refuse": false
+  },
+  {
+    "id": "out-of-scope-travel",
+    "question": "Quel est le prix d'un billet d'avion pour Tokyo ?",
+    "expected_doc_ids": [],
+    "should_refuse": true
+  }
+]

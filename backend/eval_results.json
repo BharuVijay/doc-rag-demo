@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "cases": 4,
+    "refusal_accuracy": 0.25,
+    "citation_hit_rate": 0.25,
+    "complete_answer_rate": 0.0,
+    "mean_latency_ms": 7706.79,
+    "total_tokens": 2200
+  },
+  "results": [
+    {
+      "id": "auto-deductible",
+      "question": "Quelle est la franchise auto tous accidents ?",
+      "retrieval_rank": 1,
+      "refused": true,
+      "refusal_expected": false,
+      "refusal_correct": false,
+      "answer_found": false,
+      "complete_answer_found": false,
+      "citation_hit": false,
+      "citation_count": 0,
+      "latency_ms": 12427.21,
+      "prompt_tokens": 374,
+      "completion_tokens": 37,
+      "total_tokens": 411
+    },
+    {
+      "id": "home-water-damage",
+      "question": "Quelle est la franchise pour un degat des eaux ?",
+      "retrieval_rank": 1,
+      "refused": true,
+      "refusal_expected": false,
+      "refusal_correct": false,
+      "answer_found": false,
+      "complete_answer_found": false,
+      "citation_hit": false,
+      "citation_count": 0,
+      "latency_ms": 8394.94,
+      "prompt_tokens": 389,
+      "completion_tokens": 40,
+      "total_tokens": 429
+    },
+    {
+      "id": "auto-home-comparison",
+      "question": "Quelle est la difference de franchise entre l'auto et l'habitation ?",
+      "retrieval_rank": 3,
+      "refused": true,
+      "refusal_expected": false,
+      "refusal_correct": false,
+      "answer_found": false,
+      "complete_answer_found": false,
+      "citation_hit": false,
+      "citation_count": 0,
+      "latency_ms": 4610.82,
+      "prompt_tokens": 639,
+      "completion_tokens": 314,
+      "total_tokens": 953
+    },
+    {
+      "id": "out-of-scope-travel",
+      "question": "Quel est le prix d'un billet d'avion pour Tokyo ?",
+      "retrieval_rank": null,
+      "refused": true,
+      "refusal_expected": true,
+      "refusal_correct": true,
+      "answer_found": false,
+      "complete_answer_found": false,
+      "citation_hit": true,
+      "citation_count": 0,
+      "latency_ms": 5394.18,
+      "prompt_tokens": 365,
+      "completion_tokens": 42,
+      "total_tokens": 407
+    }
+  ]
+}
