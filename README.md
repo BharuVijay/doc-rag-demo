@@ -1,5 +1,5 @@
 # Document Assistant — demo (Fictional Solidaris Insurance)
-Foyer - A document chatbot that answers questions about a fictional corpus of
+A document chatbot that answers questions about a fictional corpus of
 insurance contracts (auto, home, life/health, claims FAQ, and decision letters),
 without LangChain or LlamaIndex — every component (chunking, indexing,
 retrieval, and generation) is implemented explicitly.
